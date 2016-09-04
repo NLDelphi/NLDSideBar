@@ -9,7 +9,7 @@
 { *************************************************************************** }
 {                                                                             }
 { Date: December 8, 2010                                                      }
-{ Version: 1.0.0.0                                                            }
+{ Version: 1.0.0.1                                                            }
 {                                                                             }
 { *************************************************************************** }
 
@@ -724,12 +724,14 @@ begin
     begin
       SetBounds(FSideButton.Width, FSideButton.Top, Width, FSideButton.Height);
       Anchors := [akLeft, akTop, akBottom];
+      BringToFront;
     end
     else
     begin
       SetBounds(FSideButton.Left - Width, FSideButton.Top, Width,
         FSideButton.Height);
       Anchors := [akRight, akTop, akBottom];
+      BringToFront;
     end;
 end;
 
