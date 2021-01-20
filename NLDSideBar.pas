@@ -4,12 +4,7 @@
 {                                                                             }
 { Initiator: Albert de Weerd (aka NGLN)                                       }
 { License: Free to use, free to modify                                        }
-{ SVN path: http://svn.nldelphi.com/nldelphi/opensource/ngln/NLDSideBar       }
-{                                                                             }
-{ *************************************************************************** }
-{                                                                             }
-{ Date: December 8, 2010                                                      }
-{ Version: 1.0.0.1                                                            }
+{ Source path: https://github.com/NLDelphi/NLDSideBar                         }
 {                                                                             }
 { *************************************************************************** }
 
@@ -18,8 +13,8 @@ unit NLDSideBar;
 interface
 
 uses
-  Controls, Classes, StdCtrls, Themes, Windows, Graphics, Messages, Buttons,
-  Forms, ExtCtrls, Math, Types;
+  Controls, Classes, StdCtrls, Themes, Winapi.Windows, Graphics,
+  Winapi.Messages, Buttons, Forms, ExtCtrls, Math, Types;
 
 const
   DefSideButtonWidth = 25;
